@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046026752E2628BF005DB147 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046026742E2628BF005DB147 /* 1.jpg */; };
+		046026772E2628C4005DB147 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046026762E2628C4005DB147 /* 2.jpg */; };
+		046026792E2628D0005DB147 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046026782E2628D0005DB147 /* 3.jpg */; };
+		0460267B2E2628E6005DB147 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0460267A2E2628E6005DB147 /* 4.jpg */; };
+		0460267D2E2628F7005DB147 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0460267C2E2628F7005DB147 /* 5.jpg */; };
+		0460267F2E262903005DB147 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0460267E2E262903005DB147 /* 6.jpg */; };
+		046026822E262909005DB147 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046026812E262909005DB147 /* 8.jpg */; };
+		046026832E262909005DB147 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046026802E262909005DB147 /* 7.jpg */; };
+		046026852E262914005DB147 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046026842E262914005DB147 /* 9.jpg */; };
+		046026872E26291F005DB147 /* 每日推荐.png in Resources */ = {isa = PBXBuildFile; fileRef = 046026862E26291F005DB147 /* 每日推荐.png */; };
+		046026892E262928005DB147 /* 发现.png in Resources */ = {isa = PBXBuildFile; fileRef = 046026882E262928005DB147 /* 发现.png */; };
+		0460268F2E262944005DB147 /* 播客.png in Resources */ = {isa = PBXBuildFile; fileRef = 0460268A2E262944005DB147 /* 播客.png */; };
+		046026902E262944005DB147 /* 听书.png in Resources */ = {isa = PBXBuildFile; fileRef = 0460268C2E262944005DB147 /* 听书.png */; };
+		046026912E262944005DB147 /* 推荐.png in Resources */ = {isa = PBXBuildFile; fileRef = 0460268D2E262944005DB147 /* 推荐.png */; };
+		046026922E262944005DB147 /* 排行榜.png in Resources */ = {isa = PBXBuildFile; fileRef = 0460268B2E262944005DB147 /* 排行榜.png */; };
+		046026932E262944005DB147 /* 音乐.png in Resources */ = {isa = PBXBuildFile; fileRef = 0460268E2E262944005DB147 /* 音乐.png */; };
+		046026992E262959005DB147 /* 私人雷达.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046026962E262959005DB147 /* 私人雷达.jpg */; };
+		0460269A2E262959005DB147 /* 黑胶专属.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046026952E262959005DB147 /* 黑胶专属.jpg */; };
+		0460269B2E262959005DB147 /* 华语雷达.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046026972E262959005DB147 /* 华语雷达.jpg */; };
+		0460269C2E262959005DB147 /* 新歌雷达.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046026982E262959005DB147 /* 新歌雷达.jpg */; };
+		0460269D2E262959005DB147 /* 宝藏雷达.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046026942E262959005DB147 /* 宝藏雷达.jpg */; };
+		046026D72E2656FF005DB147 /* 不喜欢.png in Resources */ = {isa = PBXBuildFile; fileRef = 046026D62E2656FF005DB147 /* 不喜欢.png */; };
+		046026D92E265704005DB147 /* 喜欢.png in Resources */ = {isa = PBXBuildFile; fileRef = 046026D82E265704005DB147 /* 喜欢.png */; };
+		046026DF2E26599B005DB147 /* cover3.png in Resources */ = {isa = PBXBuildFile; fileRef = 046026DC2E26599B005DB147 /* cover3.png */; };
+		046026E02E26599B005DB147 /* cover5.png in Resources */ = {isa = PBXBuildFile; fileRef = 046026DE2E26599B005DB147 /* cover5.png */; };
+		046026E12E26599B005DB147 /* cover1.png in Resources */ = {isa = PBXBuildFile; fileRef = 046026DA2E26599B005DB147 /* cover1.png */; };
+		046026E22E26599B005DB147 /* cover4.png in Resources */ = {isa = PBXBuildFile; fileRef = 046026DD2E26599B005DB147 /* cover4.png */; };
+		046026E32E26599B005DB147 /* cover2.png in Resources */ = {isa = PBXBuildFile; fileRef = 046026DB2E26599B005DB147 /* cover2.png */; };
+		046026F12E267667005DB147 /* 搜索.png in Resources */ = {isa = PBXBuildFile; fileRef = 046026F02E267667005DB147 /* 搜索.png */; };
+		046026F32E267724005DB147 /* 更多.png in Resources */ = {isa = PBXBuildFile; fileRef = 046026F22E267724005DB147 /* 更多.png */; };
+		046026FB2E267A10005DB147 /* 背景.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046026FA2E267A10005DB147 /* 背景.jpg */; };
+		046026FD2E267EB5005DB147 /* 头像.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046026FC2E267EB5005DB147 /* 头像.jpg */; };
+		0460270A2E268C64005DB147 /* avatar9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046027092E268C64005DB147 /* avatar9.jpg */; };
+		0460270B2E268C64005DB147 /* avatar1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046027012E268C64005DB147 /* avatar1.jpg */; };
+		0460270C2E268C64005DB147 /* avatar8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046027082E268C64005DB147 /* avatar8.jpg */; };
+		0460270D2E268C64005DB147 /* avatar4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046027042E268C64005DB147 /* avatar4.jpg */; };
+		0460270E2E268C64005DB147 /* avatar6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046027062E268C64005DB147 /* avatar6.jpg */; };
+		0460270F2E268C64005DB147 /* avatar7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046027072E268C64005DB147 /* avatar7.jpg */; };
+		046027102E268C64005DB147 /* avatar3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046027032E268C64005DB147 /* avatar3.jpg */; };
+		046027112E268C64005DB147 /* avatar5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046027052E268C64005DB147 /* avatar5.jpg */; };
+		046027122E268C64005DB147 /* avatar2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046027022E268C64005DB147 /* avatar2.jpg */; };
+		046027422E278EE7005DB147 /* 装扮.png in Resources */ = {isa = PBXBuildFile; fileRef = 0460273F2E278EE7005DB147 /* 装扮.png */; };
+		046027442E278EE7005DB147 /* 更多主页.png in Resources */ = {isa = PBXBuildFile; fileRef = 046027402E278EE7005DB147 /* 更多主页.png */; };
+		046027452E278EE7005DB147 /* 最近.png in Resources */ = {isa = PBXBuildFile; fileRef = 046027412E278EE7005DB147 /* 最近.png */; };
+		046027462E278EE7005DB147 /* 本地.png in Resources */ = {isa = PBXBuildFile; fileRef = 0460273D2E278EE7005DB147 /* 本地.png */; };
+		046027482E279405005DB147 /* 网盘.png in Resources */ = {isa = PBXBuildFile; fileRef = 046027472E279405005DB147 /* 网盘.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0460263C2E26100F005DB147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046026182E26100D005DB147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0460261F2E26100D005DB147;
+			remoteInfo = "网易云音乐";
+		};
+		046026462E26100F005DB147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046026182E26100D005DB147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0460261F2E26100D005DB147;
+			remoteInfo = "网易云音乐";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046026202E26100D005DB147 /* 网易云音乐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网易云音乐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0460263B2E26100F005DB147 /* 网易云音乐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网易云音乐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046026452E26100F005DB147 /* 网易云音乐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网易云音乐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046026742E2628BF005DB147 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		046026762E2628C4005DB147 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		046026782E2628D0005DB147 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		0460267A2E2628E6005DB147 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		0460267C2E2628F7005DB147 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		0460267E2E262903005DB147 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		046026802E262909005DB147 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		046026812E262909005DB147 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		046026842E262914005DB147 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		046026862E26291F005DB147 /* 每日推荐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "每日推荐.png"; sourceTree = "<group>"; };
+		046026882E262928005DB147 /* 发现.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发现.png"; sourceTree = "<group>"; };
+		0460268A2E262944005DB147 /* 播客.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播客.png"; sourceTree = "<group>"; };
+		0460268B2E262944005DB147 /* 排行榜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "排行榜.png"; sourceTree = "<group>"; };
+		0460268C2E262944005DB147 /* 听书.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "听书.png"; sourceTree = "<group>"; };
+		0460268D2E262944005DB147 /* 推荐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "推荐.png"; sourceTree = "<group>"; };
+		0460268E2E262944005DB147 /* 音乐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音乐.png"; sourceTree = "<group>"; };
+		046026942E262959005DB147 /* 宝藏雷达.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "宝藏雷达.jpg"; sourceTree = "<group>"; };
+		046026952E262959005DB147 /* 黑胶专属.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黑胶专属.jpg"; sourceTree = "<group>"; };
+		046026962E262959005DB147 /* 私人雷达.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "私人雷达.jpg"; sourceTree = "<group>"; };
+		046026972E262959005DB147 /* 华语雷达.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "华语雷达.jpg"; sourceTree = "<group>"; };
+		046026982E262959005DB147 /* 新歌雷达.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "新歌雷达.jpg"; sourceTree = "<group>"; };
+		046026D62E2656FF005DB147 /* 不喜欢.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "不喜欢.png"; sourceTree = "<group>"; };
+		046026D82E265704005DB147 /* 喜欢.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "喜欢.png"; sourceTree = "<group>"; };
+		046026DA2E26599B005DB147 /* cover1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover1.png; sourceTree = "<group>"; };
+		046026DB2E26599B005DB147 /* cover2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover2.png; sourceTree = "<group>"; };
+		046026DC2E26599B005DB147 /* cover3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover3.png; sourceTree = "<group>"; };
+		046026DD2E26599B005DB147 /* cover4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover4.png; sourceTree = "<group>"; };
+		046026DE2E26599B005DB147 /* cover5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover5.png; sourceTree = "<group>"; };
+		046026F02E267667005DB147 /* 搜索.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索.png"; sourceTree = "<group>"; };
+		046026F22E267724005DB147 /* 更多.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "更多.png"; sourceTree = "<group>"; };
+		046026FA2E267A10005DB147 /* 背景.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景.jpg"; sourceTree = "<group>"; };
+		046026FC2E267EB5005DB147 /* 头像.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "头像.jpg"; sourceTree = "<group>"; };
+		046027012E268C64005DB147 /* avatar1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar1.jpg; sourceTree = "<group>"; };
+		046027022E268C64005DB147 /* avatar2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar2.jpg; sourceTree = "<group>"; };
+		046027032E268C64005DB147 /* avatar3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar3.jpg; sourceTree = "<group>"; };
+		046027042E268C64005DB147 /* avatar4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar4.jpg; sourceTree = "<group>"; };
+		046027052E268C64005DB147 /* avatar5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar5.jpg; sourceTree = "<group>"; };
+		046027062E268C64005DB147 /* avatar6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar6.jpg; sourceTree = "<group>"; };
+		046027072E268C64005DB147 /* avatar7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar7.jpg; sourceTree = "<group>"; };
+		046027082E268C64005DB147 /* avatar8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar8.jpg; sourceTree = "<group>"; };
+		046027092E268C64005DB147 /* avatar9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar9.jpg; sourceTree = "<group>"; };
+		0460273D2E278EE7005DB147 /* 本地.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "本地.png"; sourceTree = "<group>"; };
+		0460273F2E278EE7005DB147 /* 装扮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "装扮.png"; sourceTree = "<group>"; };
+		046027402E278EE7005DB147 /* 更多主页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "更多主页.png"; sourceTree = "<group>"; };
+		046027412E278EE7005DB147 /* 最近.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "最近.png"; sourceTree = "<group>"; };
+		046027472E279405005DB147 /* 网盘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "网盘.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0460264D2E26100F005DB147 /* Exceptions for "网易云音乐" folder in "网易云音乐" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0460261F2E26100D005DB147 /* 网易云音乐 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		046026222E26100D005DB147 /* 网易云音乐 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0460264D2E26100F005DB147 /* Exceptions for "网易云音乐" folder in "网易云音乐" target */,
+			);
+			path = "网易云音乐";
+			sourceTree = "<group>";
+		};
+		0460263E2E26100F005DB147 /* 网易云音乐Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "网易云音乐Tests";
+			sourceTree = "<group>";
+		};
+		046026482E26100F005DB147 /* 网易云音乐UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "网易云音乐UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0460261D2E26100D005DB147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046026382E26100F005DB147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046026422E26100F005DB147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046026172E26100D005DB147 = {
+			isa = PBXGroup;
+			children = (
+				046026222E26100D005DB147 /* 网易云音乐 */,
+				0460263E2E26100F005DB147 /* 网易云音乐Tests */,
+				046026482E26100F005DB147 /* 网易云音乐UITests */,
+				046026212E26100D005DB147 /* Products */,
+				046026742E2628BF005DB147 /* 1.jpg */,
+				046026762E2628C4005DB147 /* 2.jpg */,
+				046026782E2628D0005DB147 /* 3.jpg */,
+				0460267A2E2628E6005DB147 /* 4.jpg */,
+				0460267C2E2628F7005DB147 /* 5.jpg */,
+				0460267E2E262903005DB147 /* 6.jpg */,
+				046026802E262909005DB147 /* 7.jpg */,
+				046026812E262909005DB147 /* 8.jpg */,
+				046026842E262914005DB147 /* 9.jpg */,
+				046026862E26291F005DB147 /* 每日推荐.png */,
+				046026882E262928005DB147 /* 发现.png */,
+				0460268A2E262944005DB147 /* 播客.png */,
+				0460268B2E262944005DB147 /* 排行榜.png */,
+				0460268C2E262944005DB147 /* 听书.png */,
+				0460268D2E262944005DB147 /* 推荐.png */,
+				0460268E2E262944005DB147 /* 音乐.png */,
+				046026942E262959005DB147 /* 宝藏雷达.jpg */,
+				046026952E262959005DB147 /* 黑胶专属.jpg */,
+				046026962E262959005DB147 /* 私人雷达.jpg */,
+				046026972E262959005DB147 /* 华语雷达.jpg */,
+				046026982E262959005DB147 /* 新歌雷达.jpg */,
+				046026D62E2656FF005DB147 /* 不喜欢.png */,
+				046026D82E265704005DB147 /* 喜欢.png */,
+				046026DA2E26599B005DB147 /* cover1.png */,
+				046026DB2E26599B005DB147 /* cover2.png */,
+				046026DC2E26599B005DB147 /* cover3.png */,
+				046026DD2E26599B005DB147 /* cover4.png */,
+				046026DE2E26599B005DB147 /* cover5.png */,
+				046026F02E267667005DB147 /* 搜索.png */,
+				046026F22E267724005DB147 /* 更多.png */,
+				046026FA2E267A10005DB147 /* 背景.jpg */,
+				046026FC2E267EB5005DB147 /* 头像.jpg */,
+				046027012E268C64005DB147 /* avatar1.jpg */,
+				046027022E268C64005DB147 /* avatar2.jpg */,
+				046027032E268C64005DB147 /* avatar3.jpg */,
+				046027042E268C64005DB147 /* avatar4.jpg */,
+				046027052E268C64005DB147 /* avatar5.jpg */,
+				046027062E268C64005DB147 /* avatar6.jpg */,
+				046027072E268C64005DB147 /* avatar7.jpg */,
+				046027082E268C64005DB147 /* avatar8.jpg */,
+				046027092E268C64005DB147 /* avatar9.jpg */,
+				0460273D2E278EE7005DB147 /* 本地.png */,
+				0460273F2E278EE7005DB147 /* 装扮.png */,
+				046027472E279405005DB147 /* 网盘.png */,
+				046027402E278EE7005DB147 /* 更多主页.png */,
+				046027412E278EE7005DB147 /* 最近.png */,
+			);
+			sourceTree = "<group>";
+		};
+		046026212E26100D005DB147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046026202E26100D005DB147 /* 网易云音乐.app */,
+				0460263B2E26100F005DB147 /* 网易云音乐Tests.xctest */,
+				046026452E26100F005DB147 /* 网易云音乐UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0460261F2E26100D005DB147 /* 网易云音乐 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0460264E2E26100F005DB147 /* Build configuration list for PBXNativeTarget "网易云音乐" */;
+			buildPhases = (
+				0460261C2E26100D005DB147 /* Sources */,
+				0460261D2E26100D005DB147 /* Frameworks */,
+				0460261E2E26100D005DB147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				046026222E26100D005DB147 /* 网易云音乐 */,
+			);
+			name = "网易云音乐";
+			packageProductDependencies = (
+			);
+			productName = "网易云音乐";
+			productReference = 046026202E26100D005DB147 /* 网易云音乐.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0460263A2E26100F005DB147 /* 网易云音乐Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046026532E26100F005DB147 /* Build configuration list for PBXNativeTarget "网易云音乐Tests" */;
+			buildPhases = (
+				046026372E26100F005DB147 /* Sources */,
+				046026382E26100F005DB147 /* Frameworks */,
+				046026392E26100F005DB147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0460263D2E26100F005DB147 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0460263E2E26100F005DB147 /* 网易云音乐Tests */,
+			);
+			name = "网易云音乐Tests";
+			packageProductDependencies = (
+			);
+			productName = "网易云音乐Tests";
+			productReference = 0460263B2E26100F005DB147 /* 网易云音乐Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046026442E26100F005DB147 /* 网易云音乐UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046026562E26100F005DB147 /* Build configuration list for PBXNativeTarget "网易云音乐UITests" */;
+			buildPhases = (
+				046026412E26100F005DB147 /* Sources */,
+				046026422E26100F005DB147 /* Frameworks */,
+				046026432E26100F005DB147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046026472E26100F005DB147 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				046026482E26100F005DB147 /* 网易云音乐UITests */,
+			);
+			name = "网易云音乐UITests";
+			packageProductDependencies = (
+			);
+			productName = "网易云音乐UITests";
+			productReference = 046026452E26100F005DB147 /* 网易云音乐UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046026182E26100D005DB147 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					0460261F2E26100D005DB147 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					0460263A2E26100F005DB147 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 0460261F2E26100D005DB147;
+					};
+					046026442E26100F005DB147 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 0460261F2E26100D005DB147;
+					};
+				};
+			};
+			buildConfigurationList = 0460261B2E26100D005DB147 /* Build configuration list for PBXProject "网易云音乐" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046026172E26100D005DB147;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 046026212E26100D005DB147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0460261F2E26100D005DB147 /* 网易云音乐 */,
+				0460263A2E26100F005DB147 /* 网易云音乐Tests */,
+				046026442E26100F005DB147 /* 网易云音乐UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0460261E2E26100D005DB147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046026F32E267724005DB147 /* 更多.png in Resources */,
+				046026F12E267667005DB147 /* 搜索.png in Resources */,
+				0460267F2E262903005DB147 /* 6.jpg in Resources */,
+				046026992E262959005DB147 /* 私人雷达.jpg in Resources */,
+				0460269A2E262959005DB147 /* 黑胶专属.jpg in Resources */,
+				0460269B2E262959005DB147 /* 华语雷达.jpg in Resources */,
+				0460270A2E268C64005DB147 /* avatar9.jpg in Resources */,
+				0460270B2E268C64005DB147 /* avatar1.jpg in Resources */,
+				0460270C2E268C64005DB147 /* avatar8.jpg in Resources */,
+				0460270D2E268C64005DB147 /* avatar4.jpg in Resources */,
+				0460270E2E268C64005DB147 /* avatar6.jpg in Resources */,
+				0460270F2E268C64005DB147 /* avatar7.jpg in Resources */,
+				046027102E268C64005DB147 /* avatar3.jpg in Resources */,
+				046027112E268C64005DB147 /* avatar5.jpg in Resources */,
+				046027482E279405005DB147 /* 网盘.png in Resources */,
+				046027122E268C64005DB147 /* avatar2.jpg in Resources */,
+				0460269C2E262959005DB147 /* 新歌雷达.jpg in Resources */,
+				0460269D2E262959005DB147 /* 宝藏雷达.jpg in Resources */,
+				046026D72E2656FF005DB147 /* 不喜欢.png in Resources */,
+				046026892E262928005DB147 /* 发现.png in Resources */,
+				0460267D2E2628F7005DB147 /* 5.jpg in Resources */,
+				046026752E2628BF005DB147 /* 1.jpg in Resources */,
+				046026792E2628D0005DB147 /* 3.jpg in Resources */,
+				046026DF2E26599B005DB147 /* cover3.png in Resources */,
+				046026FD2E267EB5005DB147 /* 头像.jpg in Resources */,
+				046026E02E26599B005DB147 /* cover5.png in Resources */,
+				046026E12E26599B005DB147 /* cover1.png in Resources */,
+				046026E22E26599B005DB147 /* cover4.png in Resources */,
+				046026E32E26599B005DB147 /* cover2.png in Resources */,
+				0460267B2E2628E6005DB147 /* 4.jpg in Resources */,
+				046026D92E265704005DB147 /* 喜欢.png in Resources */,
+				046026772E2628C4005DB147 /* 2.jpg in Resources */,
+				046026822E262909005DB147 /* 8.jpg in Resources */,
+				046026832E262909005DB147 /* 7.jpg in Resources */,
+				046026872E26291F005DB147 /* 每日推荐.png in Resources */,
+				0460268F2E262944005DB147 /* 播客.png in Resources */,
+				046026FB2E267A10005DB147 /* 背景.jpg in Resources */,
+				046026902E262944005DB147 /* 听书.png in Resources */,
+				046026912E262944005DB147 /* 推荐.png in Resources */,
+				046027422E278EE7005DB147 /* 装扮.png in Resources */,
+				046027442E278EE7005DB147 /* 更多主页.png in Resources */,
+				046027452E278EE7005DB147 /* 最近.png in Resources */,
+				046027462E278EE7005DB147 /* 本地.png in Resources */,
+				046026922E262944005DB147 /* 排行榜.png in Resources */,
+				046026932E262944005DB147 /* 音乐.png in Resources */,
+				046026852E262914005DB147 /* 9.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046026392E26100F005DB147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046026432E26100F005DB147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0460261C2E26100D005DB147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046026372E26100F005DB147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046026412E26100F005DB147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0460263D2E26100F005DB147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0460261F2E26100D005DB147 /* 网易云音乐 */;
+			targetProxy = 0460263C2E26100F005DB147 /* PBXContainerItemProxy */;
+		};
+		046026472E26100F005DB147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0460261F2E26100D005DB147 /* 网易云音乐 */;
+			targetProxy = 046026462E26100F005DB147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0460264F2E26100F005DB147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "网易云音乐/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lyd.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046026502E26100F005DB147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "网易云音乐/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lyd.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		046026512E26100F005DB147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		046026522E26100F005DB147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046026542E26100F005DB147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lyd.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网易云音乐.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/网易云音乐";
+			};
+			name = Debug;
+		};
+		046026552E26100F005DB147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lyd.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网易云音乐.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/网易云音乐";
+			};
+			name = Release;
+		};
+		046026572E26100F005DB147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lyd.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "网易云音乐";
+			};
+			name = Debug;
+		};
+		046026582E26100F005DB147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lyd.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "网易云音乐";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0460261B2E26100D005DB147 /* Build configuration list for PBXProject "网易云音乐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046026512E26100F005DB147 /* Debug */,
+				046026522E26100F005DB147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0460264E2E26100F005DB147 /* Build configuration list for PBXNativeTarget "网易云音乐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0460264F2E26100F005DB147 /* Debug */,
+				046026502E26100F005DB147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046026532E26100F005DB147 /* Build configuration list for PBXNativeTarget "网易云音乐Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046026542E26100F005DB147 /* Debug */,
+				046026552E26100F005DB147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046026562E26100F005DB147 /* Build configuration list for PBXNativeTarget "网易云音乐UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046026572E26100F005DB147 /* Debug */,
+				046026582E26100F005DB147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046026182E26100D005DB147 /* Project object */;
+}
