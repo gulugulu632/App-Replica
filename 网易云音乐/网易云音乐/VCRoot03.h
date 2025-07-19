@@ -10,8 +10,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface VCRoot03 : UIViewController
-@property(nonatomic, strong) UISegmentedControl *segmentedControl;
-@property(nonatomic, strong) UIScrollView *scrollView;
 @property(nonatomic, strong) NSArray *titles;
 @property(nonatomic, strong) UITableView *contentView;
 @property(nonatomic, strong) UITableView *musicView;

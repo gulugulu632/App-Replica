@@ -53,6 +53,10 @@
 		046027452E278EE7005DB147 /* 最近.png in Resources */ = {isa = PBXBuildFile; fileRef = 046027412E278EE7005DB147 /* 最近.png */; };
 		046027462E278EE7005DB147 /* 本地.png in Resources */ = {isa = PBXBuildFile; fileRef = 0460273D2E278EE7005DB147 /* 本地.png */; };
 		046027482E279405005DB147 /* 网盘.png in Resources */ = {isa = PBXBuildFile; fileRef = 046027472E279405005DB147 /* 网盘.png */; };
+		046029242E2A3821005DB147 /* cover9.png in Resources */ = {isa = PBXBuildFile; fileRef = 046029212E2A3821005DB147 /* cover9.png */; };
+		046029252E2A3821005DB147 /* cover7.png in Resources */ = {isa = PBXBuildFile; fileRef = 046029202E2A3821005DB147 /* cover7.png */; };
+		046029262E2A3821005DB147 /* cover6.png in Resources */ = {isa = PBXBuildFile; fileRef = 046029232E2A3821005DB147 /* cover6.png */; };
+		046029292E2A398C005DB147 /* cover8.png in Resources */ = {isa = PBXBuildFile; fileRef = 046029282E2A398C005DB147 /* cover8.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +126,10 @@
 		046027402E278EE7005DB147 /* 更多主页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "更多主页.png"; sourceTree = "<group>"; };
 		046027412E278EE7005DB147 /* 最近.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "最近.png"; sourceTree = "<group>"; };
 		046027472E279405005DB147 /* 网盘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "网盘.png"; sourceTree = "<group>"; };
+		046029202E2A3821005DB147 /* cover7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover7.png; sourceTree = "<group>"; };
+		046029212E2A3821005DB147 /* cover9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover9.png; sourceTree = "<group>"; };
+		046029232E2A3821005DB147 /* cover6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover6.png; sourceTree = "<group>"; };
+		046029282E2A398C005DB147 /* cover8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover8.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -233,6 +241,10 @@
 				046027472E279405005DB147 /* 网盘.png */,
 				046027402E278EE7005DB147 /* 更多主页.png */,
 				046027412E278EE7005DB147 /* 最近.png */,
+				046029232E2A3821005DB147 /* cover6.png */,
+				046029202E2A3821005DB147 /* cover7.png */,
+				046029282E2A398C005DB147 /* cover8.png */,
+				046029212E2A3821005DB147 /* cover9.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -368,6 +380,9 @@
 				046026F32E267724005DB147 /* 更多.png in Resources */,
 				046026F12E267667005DB147 /* 搜索.png in Resources */,
 				0460267F2E262903005DB147 /* 6.jpg in Resources */,
+				046029242E2A3821005DB147 /* cover9.png in Resources */,
+				046029252E2A3821005DB147 /* cover7.png in Resources */,
+				046029262E2A3821005DB147 /* cover6.png in Resources */,
 				046026992E262959005DB147 /* 私人雷达.jpg in Resources */,
 				0460269A2E262959005DB147 /* 黑胶专属.jpg in Resources */,
 				0460269B2E262959005DB147 /* 华语雷达.jpg in Resources */,
@@ -390,6 +405,7 @@
 				046026792E2628D0005DB147 /* 3.jpg in Resources */,
 				046026DF2E26599B005DB147 /* cover3.png in Resources */,
 				046026FD2E267EB5005DB147 /* 头像.jpg in Resources */,
+				046029292E2A398C005DB147 /* cover8.png in Resources */,
 				046026E02E26599B005DB147 /* cover5.png in Resources */,
 				046026E12E26599B005DB147 /* cover1.png in Resources */,
 				046026E22E26599B005DB147 /* cover4.png in Resources */,

@@ -86,6 +86,13 @@
     if (isDark) {
         self.view.backgroundColor = [UIColor grayColor];
         self.tableView.backgroundColor = [UIColor grayColor];
+        UINavigationBarAppearance *navAppearance = [[UINavigationBarAppearance alloc] init];
+        [navAppearance configureWithOpaqueBackground];
+        navAppearance.backgroundColor = self.view.backgroundColor;
+//        standardAppearance:表示导航栏的常规状态下的外观（没有滚动到边缘）
+//        scrollEdgeAppearance:表示导航栏滚动到边缘（通常是顶部向下滑动）时的外观。
+        [UINavigationBar appearance].standardAppearance = navAppearance;
+        [UINavigationBar appearance].scrollEdgeAppearance = navAppearance;
     } else {
         self.view.backgroundColor = [UIColor whiteColor];
         self.tableView.backgroundColor = [UIColor whiteColor];
@@ -128,7 +135,13 @@
     }
 }
 
+-(void)pressMore {
+    
+}
 
+-(void)pressMusic {
+    
+}
 /*
 #pragma mark - Navigation
 

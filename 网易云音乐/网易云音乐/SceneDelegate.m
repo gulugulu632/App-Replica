@@ -29,7 +29,28 @@
     tabBarController.tabBar.tintColor = [UIColor redColor];
     self.window.rootViewController = tabBarController;
     [self.window makeKeyAndVisible];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleThemeChange:) name:@"SwitchChanged" object:nil];
 }
 
+- (void)handleThemeChange:(NSNotification *)notification {
+    BOOL isDark = [notification.userInfo[@"switch"] boolValue];
+    if (isDark) {
+        self.window.backgroundColor = [UIColor grayColor];
+        UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+        UITabBarAppearance *appearance = [[UITabBarAppearance alloc] init];
+        appearance.backgroundColor = [UIColor grayColor];
+        tabBarController.tabBar.standardAppearance = appearance;
+    } else {
+        self.window.backgroundColor = [UIColor whiteColor];
+        UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+        UITabBarAppearance *appearance = [[UITabBarAppearance alloc] init];
+        appearance.backgroundColor = [UIColor whiteColor];
+        tabBarController.tabBar.standardAppearance = appearance;
+    }
+}
+
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
 @end
 

@@ -19,11 +19,6 @@
         [self setupButtons];
         [self setupPlaylist];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleThemeChange:) name:@"SwitchChanged" object:nil];
-
-                // 初始化时主动设置主题
-//                BOOL isDark = [[NSUserDefaults standardUserDefaults] boolForKey:@"NightMode"];
-//                [self handleThemeChange:[NSNotification notificationWithName:@"SwitchChanged" object:nil userInfo:@{@"switch": @(isDark)}]];
-//        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleThemeChange:) name:@"SwitchChange" object:nil];
         [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(autoScrollCarousel) userInfo:nil repeats:YES];
     }
     return self;
@@ -61,7 +56,7 @@
         if (i > 8) {
             imageView.frame = CGRectMake(0, 0, screenWidth, photoHeight);
         } else {
-            imageView.frame = CGRectMake((i + 1) * screenWidth, 0, screenWidth, photoHeight);
+            imageView.frame = CGRectMake(i * screenWidth, 0, screenWidth, photoHeight);
         }
         imageView.contentMode = UIViewContentModeScaleAspectFill;
         imageView.clipsToBounds = YES;
@@ -97,7 +92,7 @@
         config.baseForegroundColor = [UIColor blackColor];
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
         btn.configuration = config;
-        btn.frame = CGRectMake(i * 75, 0, 100, 100);
+        btn.frame = CGRectMake(i * 100, 0, 100, 100);
         [buttonScroll addSubview:btn];
     }
     buttonScroll.contentSize = CGSizeMake(100 * 5, 100);

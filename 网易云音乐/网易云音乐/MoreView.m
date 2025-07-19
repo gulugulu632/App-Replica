@@ -7,6 +7,9 @@
 
 #import "MoreView.h"
 #import "MoreCell.h"
+#import "MusicCell.h"
+#import "PostCell.h"
+#import "NoteCell.h"
 
 @interface MoreView ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -98,7 +101,6 @@ NSArray *labels = @[@"音乐卡片", @"编辑资料", @"更换封面", @"隐私�
     [[NSNotificationCenter defaultCenter] postNotificationName:@"SwitchChanged" object:nil userInfo:dict];
     BOOL YoN = self.switchOn;//当前开关状态
     
-    
 //    通知传值
 //    "switch"是传值时的key,其他界面用该key读取
      
@@ -113,6 +115,7 @@ NSArray *labels = @[@"音乐卡片", @"编辑资料", @"更换封面", @"隐私�
     //搭配使用:[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleThemeChange:) name:kNightModeChangedNotification object:nil];
     
     [[NSUserDefaults standardUserDefaults] setBool:YoN forKey:@"NightMode"];
+    
     if (self.switchOn) {
         [self.tableView reloadData];
         self.view.backgroundColor = [UIColor grayColor];
@@ -120,7 +123,8 @@ NSArray *labels = @[@"音乐卡片", @"编辑资料", @"更换封面", @"隐私�
         self.tabBarController.tabBar.backgroundColor = [UIColor grayColor];
         self.tabBarController.tabBar.barTintColor = [UIColor grayColor];
         self.tabBarController.tabBar.tintColor = [UIColor grayColor];
-    } else {
+    }
+    else {
         self.tableView.backgroundColor = [UIColor whiteColor];
         self.tabBarController.tabBar.backgroundColor = [UIColor whiteColor];
         self.tabBarController.tabBar.barTintColor = [UIColor whiteColor];
