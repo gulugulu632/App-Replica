@@ -1,0 +1,965 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04602C902E2B87DF005DB147 /* 自动未选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602C8B2E2B87DF005DB147 /* 自动未选中.png */; };
+		04602C912E2B87DF005DB147 /* 自动选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602C8E2E2B87DF005DB147 /* 自动选中.png */; };
+		04602C922E2B87DF005DB147 /* 密码.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602C8C2E2B87DF005DB147 /* 密码.png */; };
+		04602C932E2B87DF005DB147 /* share logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602C8D2E2B87DF005DB147 /* share logo.png */; };
+		04602C942E2B87DF005DB147 /* 账号.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602C8F2E2B87DF005DB147 /* 账号.png */; };
+		04602C992E2DCB4F005DB147 /* 邮箱.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602C982E2DCB4F005DB147 /* 邮箱.png */; };
+		04602DC62E2E3147005DB147 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DC32E2E3147005DB147 /* 3.png */; };
+		04602DC72E2E3147005DB147 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DC22E2E3147005DB147 /* 2.png */; };
+		04602DC82E2E3147005DB147 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DC42E2E3147005DB147 /* 4.png */; };
+		04602DC92E2E3147005DB147 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DC52E2E3147005DB147 /* 5.png */; };
+		04602DCB2E2E3188005DB147 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DCA2E2E3188005DB147 /* 1.png */; };
+		04602DCD2E2E318F005DB147 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DCC2E2E318F005DB147 /* 6.png */; };
+		04602DCF2E2E5AD0005DB147 /* card1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DCE2E2E5AD0005DB147 /* card1.png */; };
+		04602DD32E2E5B5A005DB147 /* card3.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DD12E2E5B5A005DB147 /* card3.png */; };
+		04602DD42E2E5B5A005DB147 /* card4.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DD22E2E5B5A005DB147 /* card4.png */; };
+		04602DD52E2E5B5A005DB147 /* card2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DD02E2E5B5A005DB147 /* card2.png */; };
+		04602DD72E2E61F6005DB147 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DD62E2E61F6005DB147 /* like.png */; };
+		04602DD92E2E61FB005DB147 /* view.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DD82E2E61FB005DB147 /* view.png */; };
+		04602DDB2E2E6203005DB147 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DDA2E2E6203005DB147 /* share.png */; };
+		04602DDD2E2E812B005DB147 /* dislike.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DDC2E2E812B005DB147 /* dislike.png */; };
+		04602DE02E2F26F1005DB147 /* 主页选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DDF2E2F26F1005DB147 /* 主页选中.png */; };
+		04602DE42E2F26FD005DB147 /* 搜索选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DE32E2F26FD005DB147 /* 搜索选中.png */; };
+		04602DE52E2F26FD005DB147 /* 搜索.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DE22E2F26FD005DB147 /* 搜索.png */; };
+		04602DE82E2F2709005DB147 /* 文章选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DE72E2F2709005DB147 /* 文章选中.png */; };
+		04602DE92E2F2709005DB147 /* 文章.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DE62E2F2709005DB147 /* 文章.png */; };
+		04602DEE2E2F2714005DB147 /* 活动选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DEB2E2F2714005DB147 /* 活动选中.png */; };
+		04602DEF2E2F2714005DB147 /* 我的选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DED2E2F2714005DB147 /* 我的选中.png */; };
+		04602DF02E2F2714005DB147 /* 我的.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DEC2E2F2714005DB147 /* 我的.png */; };
+		04602DF12E2F2714005DB147 /* 活动.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602DEA2E2F2714005DB147 /* 活动.png */; };
+		04602E2E2E2F3C1B005DB147 /* 假日.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602E2D2E2F3C1B005DB147 /* 假日.png */; };
+		04602E302E2F6143005DB147 /* 返回.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602E2F2E2F6143005DB147 /* 返回.png */; };
+		04602E3F2E2FBA0F005DB147 /* 假日3.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602E3C2E2FBA0F005DB147 /* 假日3.png */; };
+		04602E402E2FBA0F005DB147 /* 假日2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602E3B2E2FBA0F005DB147 /* 假日2.png */; };
+		04602E412E2FBA0F005DB147 /* 假日5.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602E3E2E2FBA0F005DB147 /* 假日5.png */; };
+		04602E422E2FBA0F005DB147 /* 假日4.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602E3D2E2FBA0F005DB147 /* 假日4.png */; };
+		04602E432E2FBA0F005DB147 /* 假日1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602E3A2E2FBA0F005DB147 /* 假日1.png */; };
+		04602E452E2FBA18005DB147 /* 主页.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602E442E2FBA18005DB147 /* 主页.png */; };
+		04602E992E2FCA3F005DB147 /* 搜索右.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602E982E2FCA3F005DB147 /* 搜索右.png */; };
+		04602EE52E2FCFDE005DB147 /* 蓝线.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602EE42E2FCFDE005DB147 /* 蓝线.png */; };
+		04602EE92E2FDB8B005DB147 /* 标签.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602EE82E2FDB8B005DB147 /* 标签.png */; };
+		04602EEE2E30B6EF005DB147 /* 大白1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602EED2E30B6EF005DB147 /* 大白1.png */; };
+		04602EF02E30B702005DB147 /* 大白2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602EEF2E30B702005DB147 /* 大白2.png */; };
+		04602EF52E30C868005DB147 /* 灰线.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602EF42E30C868005DB147 /* 灰线.png */; };
+		04602EF72E30D41B005DB147 /* 陕西西安.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602EF62E30D41B005DB147 /* 陕西西安.png */; };
+		04602EFF2E30DE22005DB147 /* 展开.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602EFE2E30DE22005DB147 /* 展开.png */; };
+		04602F012E30DED5005DB147 /* 未展开.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602F002E30DED5005DB147 /* 未展开.png */; };
+		04602F782E310DE1005DB147 /* WechatIMG26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F6E2E310DE1005DB147 /* WechatIMG26.jpg */; };
+		04602F792E310DE1005DB147 /* WechatIMG27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F6F2E310DE1005DB147 /* WechatIMG27.jpg */; };
+		04602F7A2E310DE1005DB147 /* WechatIMG9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F5D2E310DE1005DB147 /* WechatIMG9.jpg */; };
+		04602F7B2E310DE1005DB147 /* WechatIMG4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F582E310DE1005DB147 /* WechatIMG4.jpg */; };
+		04602F7C2E310DE1005DB147 /* WechatIMG13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F612E310DE1005DB147 /* WechatIMG13.jpg */; };
+		04602F7D2E310DE1005DB147 /* WechatIMG23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F6B2E310DE1005DB147 /* WechatIMG23.jpg */; };
+		04602F7E2E310DE1005DB147 /* WechatIMG2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F562E310DE1005DB147 /* WechatIMG2.jpg */; };
+		04602F7F2E310DE1005DB147 /* WechatIMG14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F622E310DE1005DB147 /* WechatIMG14.jpg */; };
+		04602F802E310DE1005DB147 /* WechatIMG20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F682E310DE1005DB147 /* WechatIMG20.jpg */; };
+		04602F812E310DE1005DB147 /* WechatIMG32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F742E310DE1005DB147 /* WechatIMG32.jpg */; };
+		04602F822E310DE1005DB147 /* WechatIMG16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F642E310DE1005DB147 /* WechatIMG16.jpg */; };
+		04602F832E310DE1005DB147 /* WechatIMG7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F5B2E310DE1005DB147 /* WechatIMG7.jpg */; };
+		04602F842E310DE1005DB147 /* WechatIMG8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F5C2E310DE1005DB147 /* WechatIMG8.jpg */; };
+		04602F852E310DE1005DB147 /* WechatIMG29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F712E310DE1005DB147 /* WechatIMG29.jpg */; };
+		04602F862E310DE1005DB147 /* WechatIMG21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F692E310DE1005DB147 /* WechatIMG21.jpg */; };
+		04602F872E310DE1005DB147 /* WechatIMG31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F732E310DE1005DB147 /* WechatIMG31.jpg */; };
+		04602F882E310DE1005DB147 /* WechatIMG33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F752E310DE1005DB147 /* WechatIMG33.jpg */; };
+		04602F892E310DE1005DB147 /* WechatIMG28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F702E310DE1005DB147 /* WechatIMG28.jpg */; };
+		04602F8A2E310DE1005DB147 /* WechatIMG35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F772E310DE1005DB147 /* WechatIMG35.jpg */; };
+		04602F8B2E310DE1005DB147 /* WechatIMG1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F552E310DE1005DB147 /* WechatIMG1.jpg */; };
+		04602F8C2E310DE1005DB147 /* WechatIMG5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F592E310DE1005DB147 /* WechatIMG5.jpg */; };
+		04602F8D2E310DE1005DB147 /* WechatIMG15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F632E310DE1005DB147 /* WechatIMG15.jpg */; };
+		04602F8E2E310DE1005DB147 /* WechatIMG17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F652E310DE1005DB147 /* WechatIMG17.jpg */; };
+		04602F8F2E310DE1005DB147 /* WechatIMG19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F672E310DE1005DB147 /* WechatIMG19.jpg */; };
+		04602F902E310DE1005DB147 /* WechatIMG24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F6C2E310DE1005DB147 /* WechatIMG24.jpg */; };
+		04602F912E310DE1005DB147 /* WechatIMG6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F5A2E310DE1005DB147 /* WechatIMG6.jpg */; };
+		04602F922E310DE1005DB147 /* WechatIMG18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F662E310DE1005DB147 /* WechatIMG18.jpg */; };
+		04602F932E310DE1005DB147 /* WechatIMG22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F6A2E310DE1005DB147 /* WechatIMG22.jpg */; };
+		04602F942E310DE1005DB147 /* WechatIMG11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F5F2E310DE1005DB147 /* WechatIMG11.jpg */; };
+		04602F952E310DE1005DB147 /* WechatIMG25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F6D2E310DE1005DB147 /* WechatIMG25.jpg */; };
+		04602F962E310DE1005DB147 /* WechatIMG10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F5E2E310DE1005DB147 /* WechatIMG10.jpg */; };
+		04602F972E310DE1005DB147 /* WechatIMG12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F602E310DE1005DB147 /* WechatIMG12.jpg */; };
+		04602F982E310DE1005DB147 /* WechatIMG30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F722E310DE1005DB147 /* WechatIMG30.jpg */; };
+		04602F992E310DE1005DB147 /* WechatIMG34.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F762E310DE1005DB147 /* WechatIMG34.jpg */; };
+		04602F9A2E310DE1005DB147 /* WechatIMG3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F572E310DE1005DB147 /* WechatIMG3.jpg */; };
+		04602F9C2E31C336005DB147 /* 确定.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602F9B2E31C336005DB147 /* 确定.png */; };
+		04602F9E2E31D243005DB147 /* WechatIMG36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04602F9D2E31D243005DB147 /* WechatIMG36.jpg */; };
+		04602FA02E31DA80005DB147 /* 选择照片.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602F9F2E31DA80005DB147 /* 选择照片.png */; };
+		04602FD52E320C51005DB147 /* 间隔.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602FD42E320C51005DB147 /* 间隔.png */; };
+		04602FD72E321741005DB147 /* 活动1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602FD62E321741005DB147 /* 活动1.png */; };
+		04602FD92E32175A005DB147 /* 活动2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602FD82E32175A005DB147 /* 活动2.png */; };
+		04602FDB2E3217A1005DB147 /* 活动3.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602FDA2E3217A1005DB147 /* 活动3.png */; };
+		04602FE02E321CA2005DB147 /* 发表文章.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602FDF2E321CA2005DB147 /* 发表文章.png */; };
+		04602FE92E32224C005DB147 /* 通知.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602FE62E32224C005DB147 /* 通知.png */; };
+		04602FEA2E32224C005DB147 /* 信息.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602FE52E32224C005DB147 /* 信息.png */; };
+		04602FEB2E32224C005DB147 /* 上传.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602FE42E32224C005DB147 /* 上传.png */; };
+		04602FEC2E32224C005DB147 /* 设置.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602FE72E32224C005DB147 /* 设置.png */; };
+		04602FED2E32224C005DB147 /* 退出.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602FE82E32224C005DB147 /* 退出.png */; };
+		04602FF12E3250AB005DB147 /* 进入.png in Resources */ = {isa = PBXBuildFile; fileRef = 04602FF02E3250AB005DB147 /* 进入.png */; };
+		046030042E32641B005DB147 /* 未关注.png in Resources */ = {isa = PBXBuildFile; fileRef = 046030022E32641B005DB147 /* 未关注.png */; };
+		046030052E32641B005DB147 /* 已关注.png in Resources */ = {isa = PBXBuildFile; fileRef = 046030032E32641B005DB147 /* 已关注.png */; };
+		046030112E337F86005DB147 /* 下.png in Resources */ = {isa = PBXBuildFile; fileRef = 0460300F2E337F86005DB147 /* 下.png */; };
+		046030122E337F86005DB147 /* 上.png in Resources */ = {isa = PBXBuildFile; fileRef = 046030102E337F86005DB147 /* 上.png */; };
+		0460301E2E33B000005DB147 /* 未选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 0460301C2E33B000005DB147 /* 未选中.png */; };
+		0460301F2E33B000005DB147 /* 选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 0460301D2E33B000005DB147 /* 选中.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04602B8A2E2B7C4E005DB147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04602B662E2B7C4C005DB147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04602B6D2E2B7C4C005DB147;
+			remoteInfo = 3GShare;
+		};
+		04602B942E2B7C4E005DB147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04602B662E2B7C4C005DB147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04602B6D2E2B7C4C005DB147;
+			remoteInfo = 3GShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04602B6E2E2B7C4C005DB147 /* 3GShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3GShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04602B892E2B7C4E005DB147 /* 3GShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3GShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04602B932E2B7C4E005DB147 /* 3GShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3GShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04602C8B2E2B87DF005DB147 /* 自动未选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "自动未选中.png"; sourceTree = "<group>"; };
+		04602C8C2E2B87DF005DB147 /* 密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码.png"; sourceTree = "<group>"; };
+		04602C8D2E2B87DF005DB147 /* share logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share logo.png"; sourceTree = "<group>"; };
+		04602C8E2E2B87DF005DB147 /* 自动选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "自动选中.png"; sourceTree = "<group>"; };
+		04602C8F2E2B87DF005DB147 /* 账号.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "账号.png"; sourceTree = "<group>"; };
+		04602C982E2DCB4F005DB147 /* 邮箱.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邮箱.png"; sourceTree = "<group>"; };
+		04602DC22E2E3147005DB147 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		04602DC32E2E3147005DB147 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		04602DC42E2E3147005DB147 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		04602DC52E2E3147005DB147 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		04602DCA2E2E3188005DB147 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		04602DCC2E2E318F005DB147 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		04602DCE2E2E5AD0005DB147 /* card1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card1.png; sourceTree = "<group>"; };
+		04602DD02E2E5B5A005DB147 /* card2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card2.png; sourceTree = "<group>"; };
+		04602DD12E2E5B5A005DB147 /* card3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card3.png; sourceTree = "<group>"; };
+		04602DD22E2E5B5A005DB147 /* card4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card4.png; sourceTree = "<group>"; };
+		04602DD62E2E61F6005DB147 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		04602DD82E2E61FB005DB147 /* view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view.png; sourceTree = "<group>"; };
+		04602DDA2E2E6203005DB147 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		04602DDC2E2E812B005DB147 /* dislike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dislike.png; sourceTree = "<group>"; };
+		04602DDF2E2F26F1005DB147 /* 主页选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主页选中.png"; sourceTree = "<group>"; };
+		04602DE22E2F26FD005DB147 /* 搜索.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索.png"; sourceTree = "<group>"; };
+		04602DE32E2F26FD005DB147 /* 搜索选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索选中.png"; sourceTree = "<group>"; };
+		04602DE62E2F2709005DB147 /* 文章.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文章.png"; sourceTree = "<group>"; };
+		04602DE72E2F2709005DB147 /* 文章选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文章选中.png"; sourceTree = "<group>"; };
+		04602DEA2E2F2714005DB147 /* 活动.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动.png"; sourceTree = "<group>"; };
+		04602DEB2E2F2714005DB147 /* 活动选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动选中.png"; sourceTree = "<group>"; };
+		04602DEC2E2F2714005DB147 /* 我的.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的.png"; sourceTree = "<group>"; };
+		04602DED2E2F2714005DB147 /* 我的选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的选中.png"; sourceTree = "<group>"; };
+		04602E2D2E2F3C1B005DB147 /* 假日.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "假日.png"; sourceTree = "<group>"; };
+		04602E2F2E2F6143005DB147 /* 返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回.png"; sourceTree = "<group>"; };
+		04602E3A2E2FBA0F005DB147 /* 假日1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "假日1.png"; sourceTree = "<group>"; };
+		04602E3B2E2FBA0F005DB147 /* 假日2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "假日2.png"; sourceTree = "<group>"; };
+		04602E3C2E2FBA0F005DB147 /* 假日3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "假日3.png"; sourceTree = "<group>"; };
+		04602E3D2E2FBA0F005DB147 /* 假日4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "假日4.png"; sourceTree = "<group>"; };
+		04602E3E2E2FBA0F005DB147 /* 假日5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "假日5.png"; sourceTree = "<group>"; };
+		04602E442E2FBA18005DB147 /* 主页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主页.png"; sourceTree = "<group>"; };
+		04602E982E2FCA3F005DB147 /* 搜索右.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索右.png"; sourceTree = "<group>"; };
+		04602EE42E2FCFDE005DB147 /* 蓝线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蓝线.png"; sourceTree = "<group>"; };
+		04602EE82E2FDB8B005DB147 /* 标签.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签.png"; sourceTree = "<group>"; };
+		04602EED2E30B6EF005DB147 /* 大白1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大白1.png"; sourceTree = "<group>"; };
+		04602EEF2E30B702005DB147 /* 大白2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大白2.png"; sourceTree = "<group>"; };
+		04602EF42E30C868005DB147 /* 灰线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "灰线.png"; sourceTree = "<group>"; };
+		04602EF62E30D41B005DB147 /* 陕西西安.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "陕西西安.png"; sourceTree = "<group>"; };
+		04602EFE2E30DE22005DB147 /* 展开.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "展开.png"; sourceTree = "<group>"; };
+		04602F002E30DED5005DB147 /* 未展开.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未展开.png"; sourceTree = "<group>"; };
+		04602F552E310DE1005DB147 /* WechatIMG1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG1.jpg; sourceTree = "<group>"; };
+		04602F562E310DE1005DB147 /* WechatIMG2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG2.jpg; sourceTree = "<group>"; };
+		04602F572E310DE1005DB147 /* WechatIMG3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG3.jpg; sourceTree = "<group>"; };
+		04602F582E310DE1005DB147 /* WechatIMG4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG4.jpg; sourceTree = "<group>"; };
+		04602F592E310DE1005DB147 /* WechatIMG5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG5.jpg; sourceTree = "<group>"; };
+		04602F5A2E310DE1005DB147 /* WechatIMG6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG6.jpg; sourceTree = "<group>"; };
+		04602F5B2E310DE1005DB147 /* WechatIMG7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG7.jpg; sourceTree = "<group>"; };
+		04602F5C2E310DE1005DB147 /* WechatIMG8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG8.jpg; sourceTree = "<group>"; };
+		04602F5D2E310DE1005DB147 /* WechatIMG9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG9.jpg; sourceTree = "<group>"; };
+		04602F5E2E310DE1005DB147 /* WechatIMG10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG10.jpg; sourceTree = "<group>"; };
+		04602F5F2E310DE1005DB147 /* WechatIMG11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG11.jpg; sourceTree = "<group>"; };
+		04602F602E310DE1005DB147 /* WechatIMG12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG12.jpg; sourceTree = "<group>"; };
+		04602F612E310DE1005DB147 /* WechatIMG13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG13.jpg; sourceTree = "<group>"; };
+		04602F622E310DE1005DB147 /* WechatIMG14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG14.jpg; sourceTree = "<group>"; };
+		04602F632E310DE1005DB147 /* WechatIMG15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG15.jpg; sourceTree = "<group>"; };
+		04602F642E310DE1005DB147 /* WechatIMG16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG16.jpg; sourceTree = "<group>"; };
+		04602F652E310DE1005DB147 /* WechatIMG17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG17.jpg; sourceTree = "<group>"; };
+		04602F662E310DE1005DB147 /* WechatIMG18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG18.jpg; sourceTree = "<group>"; };
+		04602F672E310DE1005DB147 /* WechatIMG19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG19.jpg; sourceTree = "<group>"; };
+		04602F682E310DE1005DB147 /* WechatIMG20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG20.jpg; sourceTree = "<group>"; };
+		04602F692E310DE1005DB147 /* WechatIMG21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG21.jpg; sourceTree = "<group>"; };
+		04602F6A2E310DE1005DB147 /* WechatIMG22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG22.jpg; sourceTree = "<group>"; };
+		04602F6B2E310DE1005DB147 /* WechatIMG23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG23.jpg; sourceTree = "<group>"; };
+		04602F6C2E310DE1005DB147 /* WechatIMG24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG24.jpg; sourceTree = "<group>"; };
+		04602F6D2E310DE1005DB147 /* WechatIMG25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG25.jpg; sourceTree = "<group>"; };
+		04602F6E2E310DE1005DB147 /* WechatIMG26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG26.jpg; sourceTree = "<group>"; };
+		04602F6F2E310DE1005DB147 /* WechatIMG27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG27.jpg; sourceTree = "<group>"; };
+		04602F702E310DE1005DB147 /* WechatIMG28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG28.jpg; sourceTree = "<group>"; };
+		04602F712E310DE1005DB147 /* WechatIMG29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG29.jpg; sourceTree = "<group>"; };
+		04602F722E310DE1005DB147 /* WechatIMG30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG30.jpg; sourceTree = "<group>"; };
+		04602F732E310DE1005DB147 /* WechatIMG31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG31.jpg; sourceTree = "<group>"; };
+		04602F742E310DE1005DB147 /* WechatIMG32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG32.jpg; sourceTree = "<group>"; };
+		04602F752E310DE1005DB147 /* WechatIMG33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG33.jpg; sourceTree = "<group>"; };
+		04602F762E310DE1005DB147 /* WechatIMG34.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG34.jpg; sourceTree = "<group>"; };
+		04602F772E310DE1005DB147 /* WechatIMG35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG35.jpg; sourceTree = "<group>"; };
+		04602F9B2E31C336005DB147 /* 确定.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "确定.png"; sourceTree = "<group>"; };
+		04602F9D2E31D243005DB147 /* WechatIMG36.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG36.jpg; sourceTree = "<group>"; };
+		04602F9F2E31DA80005DB147 /* 选择照片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择照片.png"; sourceTree = "<group>"; };
+		04602FD42E320C51005DB147 /* 间隔.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "间隔.png"; sourceTree = "<group>"; };
+		04602FD62E321741005DB147 /* 活动1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动1.png"; sourceTree = "<group>"; };
+		04602FD82E32175A005DB147 /* 活动2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动2.png"; sourceTree = "<group>"; };
+		04602FDA2E3217A1005DB147 /* 活动3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动3.png"; sourceTree = "<group>"; };
+		04602FDF2E321CA2005DB147 /* 发表文章.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发表文章.png"; sourceTree = "<group>"; };
+		04602FE42E32224C005DB147 /* 上传.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上传.png"; sourceTree = "<group>"; };
+		04602FE52E32224C005DB147 /* 信息.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "信息.png"; sourceTree = "<group>"; };
+		04602FE62E32224C005DB147 /* 通知.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通知.png"; sourceTree = "<group>"; };
+		04602FE72E32224C005DB147 /* 设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置.png"; sourceTree = "<group>"; };
+		04602FE82E32224C005DB147 /* 退出.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "退出.png"; sourceTree = "<group>"; };
+		04602FF02E3250AB005DB147 /* 进入.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进入.png"; sourceTree = "<group>"; };
+		046030022E32641B005DB147 /* 未关注.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未关注.png"; sourceTree = "<group>"; };
+		046030032E32641B005DB147 /* 已关注.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "已关注.png"; sourceTree = "<group>"; };
+		0460300F2E337F86005DB147 /* 下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下.png"; sourceTree = "<group>"; };
+		046030102E337F86005DB147 /* 上.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上.png"; sourceTree = "<group>"; };
+		0460301C2E33B000005DB147 /* 未选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未选中.png"; sourceTree = "<group>"; };
+		0460301D2E33B000005DB147 /* 选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		04602B9B2E2B7C4E005DB147 /* Exceptions for "3GShare" folder in "3GShare" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 04602B6D2E2B7C4C005DB147 /* 3GShare */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		04602B702E2B7C4C005DB147 /* 3GShare */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				04602B9B2E2B7C4E005DB147 /* Exceptions for "3GShare" folder in "3GShare" target */,
+			);
+			path = 3GShare;
+			sourceTree = "<group>";
+		};
+		04602B8C2E2B7C4E005DB147 /* 3GShareTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 3GShareTests;
+			sourceTree = "<group>";
+		};
+		04602B962E2B7C4E005DB147 /* 3GShareUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 3GShareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04602B6B2E2B7C4C005DB147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04602B862E2B7C4E005DB147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04602B902E2B7C4E005DB147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04602B652E2B7C4C005DB147 = {
+			isa = PBXGroup;
+			children = (
+				04602B702E2B7C4C005DB147 /* 3GShare */,
+				04602B8C2E2B7C4E005DB147 /* 3GShareTests */,
+				04602B962E2B7C4E005DB147 /* 3GShareUITests */,
+				04602B6F2E2B7C4C005DB147 /* Products */,
+				04602C8D2E2B87DF005DB147 /* share logo.png */,
+				04602C8F2E2B87DF005DB147 /* 账号.png */,
+				04602C8C2E2B87DF005DB147 /* 密码.png */,
+				04602C8B2E2B87DF005DB147 /* 自动未选中.png */,
+				04602C8E2E2B87DF005DB147 /* 自动选中.png */,
+				04602C982E2DCB4F005DB147 /* 邮箱.png */,
+				04602E442E2FBA18005DB147 /* 主页.png */,
+				04602DDF2E2F26F1005DB147 /* 主页选中.png */,
+				04602DE22E2F26FD005DB147 /* 搜索.png */,
+				04602DE32E2F26FD005DB147 /* 搜索选中.png */,
+				04602DE62E2F2709005DB147 /* 文章.png */,
+				04602DE72E2F2709005DB147 /* 文章选中.png */,
+				04602DEA2E2F2714005DB147 /* 活动.png */,
+				04602DEB2E2F2714005DB147 /* 活动选中.png */,
+				04602DEC2E2F2714005DB147 /* 我的.png */,
+				04602DED2E2F2714005DB147 /* 我的选中.png */,
+				04602DCA2E2E3188005DB147 /* 1.png */,
+				04602DC22E2E3147005DB147 /* 2.png */,
+				04602DC32E2E3147005DB147 /* 3.png */,
+				04602DC42E2E3147005DB147 /* 4.png */,
+				04602DC52E2E3147005DB147 /* 5.png */,
+				04602DCC2E2E318F005DB147 /* 6.png */,
+				04602DCE2E2E5AD0005DB147 /* card1.png */,
+				04602DD02E2E5B5A005DB147 /* card2.png */,
+				04602DD12E2E5B5A005DB147 /* card3.png */,
+				04602DD22E2E5B5A005DB147 /* card4.png */,
+				04602DD62E2E61F6005DB147 /* like.png */,
+				04602DDC2E2E812B005DB147 /* dislike.png */,
+				04602DD82E2E61FB005DB147 /* view.png */,
+				04602DDA2E2E6203005DB147 /* share.png */,
+				04602E2F2E2F6143005DB147 /* 返回.png */,
+				04602E2D2E2F3C1B005DB147 /* 假日.png */,
+				04602E3A2E2FBA0F005DB147 /* 假日1.png */,
+				04602E3B2E2FBA0F005DB147 /* 假日2.png */,
+				04602E3C2E2FBA0F005DB147 /* 假日3.png */,
+				04602E3D2E2FBA0F005DB147 /* 假日4.png */,
+				04602E3E2E2FBA0F005DB147 /* 假日5.png */,
+				04602E982E2FCA3F005DB147 /* 搜索右.png */,
+				04602EE82E2FDB8B005DB147 /* 标签.png */,
+				04602EE42E2FCFDE005DB147 /* 蓝线.png */,
+				04602EED2E30B6EF005DB147 /* 大白1.png */,
+				04602EEF2E30B702005DB147 /* 大白2.png */,
+				04602F9F2E31DA80005DB147 /* 选择照片.png */,
+				04602EF42E30C868005DB147 /* 灰线.png */,
+				04602EF62E30D41B005DB147 /* 陕西西安.png */,
+				04602F002E30DED5005DB147 /* 未展开.png */,
+				04602EFE2E30DE22005DB147 /* 展开.png */,
+				04602F552E310DE1005DB147 /* WechatIMG1.jpg */,
+				04602F562E310DE1005DB147 /* WechatIMG2.jpg */,
+				04602F572E310DE1005DB147 /* WechatIMG3.jpg */,
+				04602F582E310DE1005DB147 /* WechatIMG4.jpg */,
+				04602F592E310DE1005DB147 /* WechatIMG5.jpg */,
+				04602F5A2E310DE1005DB147 /* WechatIMG6.jpg */,
+				04602F5B2E310DE1005DB147 /* WechatIMG7.jpg */,
+				04602F5C2E310DE1005DB147 /* WechatIMG8.jpg */,
+				04602F5D2E310DE1005DB147 /* WechatIMG9.jpg */,
+				04602F5E2E310DE1005DB147 /* WechatIMG10.jpg */,
+				04602F5F2E310DE1005DB147 /* WechatIMG11.jpg */,
+				04602F602E310DE1005DB147 /* WechatIMG12.jpg */,
+				04602F612E310DE1005DB147 /* WechatIMG13.jpg */,
+				04602F622E310DE1005DB147 /* WechatIMG14.jpg */,
+				04602F632E310DE1005DB147 /* WechatIMG15.jpg */,
+				04602F642E310DE1005DB147 /* WechatIMG16.jpg */,
+				04602F652E310DE1005DB147 /* WechatIMG17.jpg */,
+				04602F662E310DE1005DB147 /* WechatIMG18.jpg */,
+				04602F672E310DE1005DB147 /* WechatIMG19.jpg */,
+				04602F682E310DE1005DB147 /* WechatIMG20.jpg */,
+				04602F692E310DE1005DB147 /* WechatIMG21.jpg */,
+				04602F6A2E310DE1005DB147 /* WechatIMG22.jpg */,
+				04602F6B2E310DE1005DB147 /* WechatIMG23.jpg */,
+				04602F6C2E310DE1005DB147 /* WechatIMG24.jpg */,
+				04602F6D2E310DE1005DB147 /* WechatIMG25.jpg */,
+				04602F6E2E310DE1005DB147 /* WechatIMG26.jpg */,
+				04602F6F2E310DE1005DB147 /* WechatIMG27.jpg */,
+				04602F702E310DE1005DB147 /* WechatIMG28.jpg */,
+				04602F712E310DE1005DB147 /* WechatIMG29.jpg */,
+				04602F722E310DE1005DB147 /* WechatIMG30.jpg */,
+				04602F732E310DE1005DB147 /* WechatIMG31.jpg */,
+				04602F742E310DE1005DB147 /* WechatIMG32.jpg */,
+				04602F752E310DE1005DB147 /* WechatIMG33.jpg */,
+				04602F762E310DE1005DB147 /* WechatIMG34.jpg */,
+				04602F772E310DE1005DB147 /* WechatIMG35.jpg */,
+				04602F9D2E31D243005DB147 /* WechatIMG36.jpg */,
+				04602F9B2E31C336005DB147 /* 确定.png */,
+				04602FD42E320C51005DB147 /* 间隔.png */,
+				04602FD62E321741005DB147 /* 活动1.png */,
+				04602FD82E32175A005DB147 /* 活动2.png */,
+				04602FDA2E3217A1005DB147 /* 活动3.png */,
+				04602FDF2E321CA2005DB147 /* 发表文章.png */,
+				04602FE42E32224C005DB147 /* 上传.png */,
+				04602FE52E32224C005DB147 /* 信息.png */,
+				04602FE62E32224C005DB147 /* 通知.png */,
+				04602FE72E32224C005DB147 /* 设置.png */,
+				04602FE82E32224C005DB147 /* 退出.png */,
+				04602FF02E3250AB005DB147 /* 进入.png */,
+				046030022E32641B005DB147 /* 未关注.png */,
+				046030032E32641B005DB147 /* 已关注.png */,
+				0460300F2E337F86005DB147 /* 下.png */,
+				046030102E337F86005DB147 /* 上.png */,
+				0460301C2E33B000005DB147 /* 未选中.png */,
+				0460301D2E33B000005DB147 /* 选中.png */,
+			);
+			sourceTree = "<group>";
+		};
+		04602B6F2E2B7C4C005DB147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04602B6E2E2B7C4C005DB147 /* 3GShare.app */,
+				04602B892E2B7C4E005DB147 /* 3GShareTests.xctest */,
+				04602B932E2B7C4E005DB147 /* 3GShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04602B6D2E2B7C4C005DB147 /* 3GShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04602B9C2E2B7C4E005DB147 /* Build configuration list for PBXNativeTarget "3GShare" */;
+			buildPhases = (
+				04602B6A2E2B7C4C005DB147 /* Sources */,
+				04602B6B2E2B7C4C005DB147 /* Frameworks */,
+				04602B6C2E2B7C4C005DB147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				04602B702E2B7C4C005DB147 /* 3GShare */,
+			);
+			name = 3GShare;
+			packageProductDependencies = (
+			);
+			productName = 3GShare;
+			productReference = 04602B6E2E2B7C4C005DB147 /* 3GShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04602B882E2B7C4E005DB147 /* 3GShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04602BA12E2B7C4E005DB147 /* Build configuration list for PBXNativeTarget "3GShareTests" */;
+			buildPhases = (
+				04602B852E2B7C4E005DB147 /* Sources */,
+				04602B862E2B7C4E005DB147 /* Frameworks */,
+				04602B872E2B7C4E005DB147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04602B8B2E2B7C4E005DB147 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04602B8C2E2B7C4E005DB147 /* 3GShareTests */,
+			);
+			name = 3GShareTests;
+			packageProductDependencies = (
+			);
+			productName = 3GShareTests;
+			productReference = 04602B892E2B7C4E005DB147 /* 3GShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04602B922E2B7C4E005DB147 /* 3GShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04602BA42E2B7C4E005DB147 /* Build configuration list for PBXNativeTarget "3GShareUITests" */;
+			buildPhases = (
+				04602B8F2E2B7C4E005DB147 /* Sources */,
+				04602B902E2B7C4E005DB147 /* Frameworks */,
+				04602B912E2B7C4E005DB147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04602B952E2B7C4E005DB147 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04602B962E2B7C4E005DB147 /* 3GShareUITests */,
+			);
+			name = 3GShareUITests;
+			packageProductDependencies = (
+			);
+			productName = 3GShareUITests;
+			productReference = 04602B932E2B7C4E005DB147 /* 3GShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04602B662E2B7C4C005DB147 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					04602B6D2E2B7C4C005DB147 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					04602B882E2B7C4E005DB147 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 04602B6D2E2B7C4C005DB147;
+					};
+					04602B922E2B7C4E005DB147 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 04602B6D2E2B7C4C005DB147;
+					};
+				};
+			};
+			buildConfigurationList = 04602B692E2B7C4C005DB147 /* Build configuration list for PBXProject "3GShare" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04602B652E2B7C4C005DB147;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 04602B6F2E2B7C4C005DB147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04602B6D2E2B7C4C005DB147 /* 3GShare */,
+				04602B882E2B7C4E005DB147 /* 3GShareTests */,
+				04602B922E2B7C4E005DB147 /* 3GShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04602B6C2E2B7C4C005DB147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04602DD92E2E61FB005DB147 /* view.png in Resources */,
+				04602FA02E31DA80005DB147 /* 选择照片.png in Resources */,
+				04602DCB2E2E3188005DB147 /* 1.png in Resources */,
+				04602DD72E2E61F6005DB147 /* like.png in Resources */,
+				04602DCD2E2E318F005DB147 /* 6.png in Resources */,
+				04602DD32E2E5B5A005DB147 /* card3.png in Resources */,
+				04602FD72E321741005DB147 /* 活动1.png in Resources */,
+				04602DEE2E2F2714005DB147 /* 活动选中.png in Resources */,
+				046030042E32641B005DB147 /* 未关注.png in Resources */,
+				046030052E32641B005DB147 /* 已关注.png in Resources */,
+				04602E3F2E2FBA0F005DB147 /* 假日3.png in Resources */,
+				04602E402E2FBA0F005DB147 /* 假日2.png in Resources */,
+				04602E412E2FBA0F005DB147 /* 假日5.png in Resources */,
+				04602E422E2FBA0F005DB147 /* 假日4.png in Resources */,
+				04602E432E2FBA0F005DB147 /* 假日1.png in Resources */,
+				04602F9C2E31C336005DB147 /* 确定.png in Resources */,
+				04602DEF2E2F2714005DB147 /* 我的选中.png in Resources */,
+				04602DF02E2F2714005DB147 /* 我的.png in Resources */,
+				04602DF12E2F2714005DB147 /* 活动.png in Resources */,
+				04602DD42E2E5B5A005DB147 /* card4.png in Resources */,
+				04602EFF2E30DE22005DB147 /* 展开.png in Resources */,
+				04602DD52E2E5B5A005DB147 /* card2.png in Resources */,
+				04602EE92E2FDB8B005DB147 /* 标签.png in Resources */,
+				04602DDB2E2E6203005DB147 /* share.png in Resources */,
+				04602C902E2B87DF005DB147 /* 自动未选中.png in Resources */,
+				04602C912E2B87DF005DB147 /* 自动选中.png in Resources */,
+				04602DE42E2F26FD005DB147 /* 搜索选中.png in Resources */,
+				04602FE92E32224C005DB147 /* 通知.png in Resources */,
+				04602FEA2E32224C005DB147 /* 信息.png in Resources */,
+				04602FEB2E32224C005DB147 /* 上传.png in Resources */,
+				0460301E2E33B000005DB147 /* 未选中.png in Resources */,
+				0460301F2E33B000005DB147 /* 选中.png in Resources */,
+				04602FEC2E32224C005DB147 /* 设置.png in Resources */,
+				04602FED2E32224C005DB147 /* 退出.png in Resources */,
+				04602DE52E2F26FD005DB147 /* 搜索.png in Resources */,
+				04602C922E2B87DF005DB147 /* 密码.png in Resources */,
+				04602EF52E30C868005DB147 /* 灰线.png in Resources */,
+				04602EF02E30B702005DB147 /* 大白2.png in Resources */,
+				04602C992E2DCB4F005DB147 /* 邮箱.png in Resources */,
+				04602DE82E2F2709005DB147 /* 文章选中.png in Resources */,
+				04602E2E2E2F3C1B005DB147 /* 假日.png in Resources */,
+				04602FF12E3250AB005DB147 /* 进入.png in Resources */,
+				04602DE92E2F2709005DB147 /* 文章.png in Resources */,
+				04602DC62E2E3147005DB147 /* 3.png in Resources */,
+				04602FDB2E3217A1005DB147 /* 活动3.png in Resources */,
+				04602DC72E2E3147005DB147 /* 2.png in Resources */,
+				04602EEE2E30B6EF005DB147 /* 大白1.png in Resources */,
+				04602DC82E2E3147005DB147 /* 4.png in Resources */,
+				04602E302E2F6143005DB147 /* 返回.png in Resources */,
+				04602DC92E2E3147005DB147 /* 5.png in Resources */,
+				04602C932E2B87DF005DB147 /* share logo.png in Resources */,
+				04602DE02E2F26F1005DB147 /* 主页选中.png in Resources */,
+				04602F012E30DED5005DB147 /* 未展开.png in Resources */,
+				046030112E337F86005DB147 /* 下.png in Resources */,
+				046030122E337F86005DB147 /* 上.png in Resources */,
+				04602F9E2E31D243005DB147 /* WechatIMG36.jpg in Resources */,
+				04602EE52E2FCFDE005DB147 /* 蓝线.png in Resources */,
+				04602DDD2E2E812B005DB147 /* dislike.png in Resources */,
+				04602C942E2B87DF005DB147 /* 账号.png in Resources */,
+				04602DCF2E2E5AD0005DB147 /* card1.png in Resources */,
+				04602E992E2FCA3F005DB147 /* 搜索右.png in Resources */,
+				04602E452E2FBA18005DB147 /* 主页.png in Resources */,
+				04602EF72E30D41B005DB147 /* 陕西西安.png in Resources */,
+				04602F782E310DE1005DB147 /* WechatIMG26.jpg in Resources */,
+				04602F792E310DE1005DB147 /* WechatIMG27.jpg in Resources */,
+				04602F7A2E310DE1005DB147 /* WechatIMG9.jpg in Resources */,
+				04602F7B2E310DE1005DB147 /* WechatIMG4.jpg in Resources */,
+				04602F7C2E310DE1005DB147 /* WechatIMG13.jpg in Resources */,
+				04602F7D2E310DE1005DB147 /* WechatIMG23.jpg in Resources */,
+				04602F7E2E310DE1005DB147 /* WechatIMG2.jpg in Resources */,
+				04602F7F2E310DE1005DB147 /* WechatIMG14.jpg in Resources */,
+				04602F802E310DE1005DB147 /* WechatIMG20.jpg in Resources */,
+				04602F812E310DE1005DB147 /* WechatIMG32.jpg in Resources */,
+				04602F822E310DE1005DB147 /* WechatIMG16.jpg in Resources */,
+				04602F832E310DE1005DB147 /* WechatIMG7.jpg in Resources */,
+				04602F842E310DE1005DB147 /* WechatIMG8.jpg in Resources */,
+				04602F852E310DE1005DB147 /* WechatIMG29.jpg in Resources */,
+				04602F862E310DE1005DB147 /* WechatIMG21.jpg in Resources */,
+				04602F872E310DE1005DB147 /* WechatIMG31.jpg in Resources */,
+				04602F882E310DE1005DB147 /* WechatIMG33.jpg in Resources */,
+				04602F892E310DE1005DB147 /* WechatIMG28.jpg in Resources */,
+				04602F8A2E310DE1005DB147 /* WechatIMG35.jpg in Resources */,
+				04602FD92E32175A005DB147 /* 活动2.png in Resources */,
+				04602F8B2E310DE1005DB147 /* WechatIMG1.jpg in Resources */,
+				04602F8C2E310DE1005DB147 /* WechatIMG5.jpg in Resources */,
+				04602F8D2E310DE1005DB147 /* WechatIMG15.jpg in Resources */,
+				04602F8E2E310DE1005DB147 /* WechatIMG17.jpg in Resources */,
+				04602F8F2E310DE1005DB147 /* WechatIMG19.jpg in Resources */,
+				04602F902E310DE1005DB147 /* WechatIMG24.jpg in Resources */,
+				04602F912E310DE1005DB147 /* WechatIMG6.jpg in Resources */,
+				04602F922E310DE1005DB147 /* WechatIMG18.jpg in Resources */,
+				04602F932E310DE1005DB147 /* WechatIMG22.jpg in Resources */,
+				04602F942E310DE1005DB147 /* WechatIMG11.jpg in Resources */,
+				04602F952E310DE1005DB147 /* WechatIMG25.jpg in Resources */,
+				04602FE02E321CA2005DB147 /* 发表文章.png in Resources */,
+				04602F962E310DE1005DB147 /* WechatIMG10.jpg in Resources */,
+				04602F972E310DE1005DB147 /* WechatIMG12.jpg in Resources */,
+				04602F982E310DE1005DB147 /* WechatIMG30.jpg in Resources */,
+				04602FD52E320C51005DB147 /* 间隔.png in Resources */,
+				04602F992E310DE1005DB147 /* WechatIMG34.jpg in Resources */,
+				04602F9A2E310DE1005DB147 /* WechatIMG3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04602B872E2B7C4E005DB147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04602B912E2B7C4E005DB147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04602B6A2E2B7C4C005DB147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04602B852E2B7C4E005DB147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04602B8F2E2B7C4E005DB147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04602B8B2E2B7C4E005DB147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04602B6D2E2B7C4C005DB147 /* 3GShare */;
+			targetProxy = 04602B8A2E2B7C4E005DB147 /* PBXContainerItemProxy */;
+		};
+		04602B952E2B7C4E005DB147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04602B6D2E2B7C4C005DB147 /* 3GShare */;
+			targetProxy = 04602B942E2B7C4E005DB147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04602B9D2E2B7C4E005DB147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 3GShare/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lyd.-GShare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04602B9E2E2B7C4E005DB147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 3GShare/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lyd.-GShare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04602B9F2E2B7C4E005DB147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04602BA02E2B7C4E005DB147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04602BA22E2B7C4E005DB147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lyd.-GShareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3GShare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3GShare";
+			};
+			name = Debug;
+		};
+		04602BA32E2B7C4E005DB147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lyd.-GShareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3GShare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3GShare";
+			};
+			name = Release;
+		};
+		04602BA52E2B7C4E005DB147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lyd.-GShareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 3GShare;
+			};
+			name = Debug;
+		};
+		04602BA62E2B7C4E005DB147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lyd.-GShareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 3GShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04602B692E2B7C4C005DB147 /* Build configuration list for PBXProject "3GShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04602B9F2E2B7C4E005DB147 /* Debug */,
+				04602BA02E2B7C4E005DB147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04602B9C2E2B7C4E005DB147 /* Build configuration list for PBXNativeTarget "3GShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04602B9D2E2B7C4E005DB147 /* Debug */,
+				04602B9E2E2B7C4E005DB147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04602BA12E2B7C4E005DB147 /* Build configuration list for PBXNativeTarget "3GShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04602BA22E2B7C4E005DB147 /* Debug */,
+				04602BA32E2B7C4E005DB147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04602BA42E2B7C4E005DB147 /* Build configuration list for PBXNativeTarget "3GShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04602BA52E2B7C4E005DB147 /* Debug */,
+				04602BA62E2B7C4E005DB147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04602B662E2B7C4C005DB147 /* Project object */;
+}
